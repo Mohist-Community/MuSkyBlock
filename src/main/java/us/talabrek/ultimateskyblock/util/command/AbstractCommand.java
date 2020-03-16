@@ -1,10 +1,5 @@
 package us.talabrek.ultimateskyblock.util.command;
 
-import us.talabrek.ultimateskyblock.util.po.I18nUtil;
-import org.bukkit.command.CommandSender;
-import org.bukkit.command.TabCompleter;
-import org.bukkit.entity.Player;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
@@ -12,6 +7,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
+import org.bukkit.command.CommandSender;
+import org.bukkit.command.TabCompleter;
+import org.bukkit.entity.Player;
+import us.talabrek.ultimateskyblock.util.po.I18nUtil;
 
 /**
  * Convenience implementation of the Command

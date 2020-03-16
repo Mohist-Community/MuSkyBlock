@@ -1,10 +1,9 @@
 package us.talabrek.ultimateskyblock.util.animation;
 
+import java.util.List;
 import org.bukkit.Location;
 import org.bukkit.Particle;
 import org.bukkit.entity.Player;
-
-import java.util.List;
 
 /**
  * An animation using particles (requires refreshes).

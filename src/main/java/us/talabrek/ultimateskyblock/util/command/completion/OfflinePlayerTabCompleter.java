@@ -1,11 +1,10 @@
 package us.talabrek.ultimateskyblock.util.command.completion;
 
+import java.util.ArrayList;
+import java.util.List;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.CommandSender;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Convenience implementation of a tab-completer for all offline players

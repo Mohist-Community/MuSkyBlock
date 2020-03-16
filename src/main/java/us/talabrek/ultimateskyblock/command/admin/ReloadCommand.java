@@ -2,8 +2,8 @@ package us.talabrek.ultimateskyblock.command.admin;
 
 import java.util.Map;
 import org.bukkit.command.CommandSender;
-import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
 import us.talabrek.ultimateskyblock.uSkyBlock;
+import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
 import us.talabrek.ultimateskyblock.util.po.I18nUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 

@@ -13,8 +13,8 @@ import us.talabrek.ultimateskyblock.api.event.IslandChatEvent;
 import us.talabrek.ultimateskyblock.handler.WorldGuardHandler;
 import us.talabrek.ultimateskyblock.handler.placeholder.PlaceholderHandler;
 import us.talabrek.ultimateskyblock.uSkyBlock;
-import us.talabrek.ultimateskyblock.util.util.FormatUtil;
 import us.talabrek.ultimateskyblock.util.po.I18nUtil;
+import us.talabrek.ultimateskyblock.util.util.FormatUtil;
 
 /**
  * The primary logic of uSkyBlocks chat-handling

@@ -1,16 +1,14 @@
 package us.talabrek.ultimateskyblock.util.command;
 
-import us.talabrek.ultimateskyblock.util.po.I18nUtil;
-import org.bukkit.command.CommandSender;
-import org.bukkit.plugin.java.JavaPlugin;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Locale;
 import java.util.Map;
-
+import org.bukkit.command.CommandSender;
+import org.bukkit.plugin.java.JavaPlugin;
+import us.talabrek.ultimateskyblock.util.po.I18nUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 

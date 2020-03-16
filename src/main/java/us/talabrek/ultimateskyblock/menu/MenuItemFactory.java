@@ -5,8 +5,8 @@ import java.util.List;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import static us.talabrek.ultimateskyblock.util.util.FormatUtil.wordWrap;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.wordWrap;
 import us.talabrek.ultimateskyblock.util.yml.YmlConfiguration;
 
 /**

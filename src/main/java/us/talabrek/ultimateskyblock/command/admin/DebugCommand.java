@@ -13,12 +13,12 @@ import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 import org.bukkit.command.CommandSender;
+import us.talabrek.ultimateskyblock.uSkyBlock;
 import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
 import us.talabrek.ultimateskyblock.util.command.CompositeCommand;
-import us.talabrek.ultimateskyblock.uSkyBlock;
-import us.talabrek.ultimateskyblock.util.util.FormatUtil;
 import us.talabrek.ultimateskyblock.util.po.I18nUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
+import us.talabrek.ultimateskyblock.util.util.FormatUtil;
 
 /**
  * Debug control.

@@ -5,8 +5,8 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import us.talabrek.ultimateskyblock.uSkyBlock;
-import static us.talabrek.ultimateskyblock.util.util.FormatUtil.stripFormatting;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.stripFormatting;
 
 /**
  * Menu events.

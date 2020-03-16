@@ -1,11 +1,10 @@
 package us.talabrek.ultimateskyblock.util.util;
 
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
 
 /**
  * Static convenience class for location methods.

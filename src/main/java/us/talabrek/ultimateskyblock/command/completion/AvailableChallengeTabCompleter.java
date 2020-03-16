@@ -3,9 +3,9 @@ package us.talabrek.ultimateskyblock.command.completion;
 import java.util.List;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 import us.talabrek.ultimateskyblock.player.PlayerInfo;
 import us.talabrek.ultimateskyblock.uSkyBlock;
+import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 
 /**
  * TabCompleter for challenge-names

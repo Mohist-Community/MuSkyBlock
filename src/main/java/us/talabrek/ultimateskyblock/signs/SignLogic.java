@@ -22,11 +22,11 @@ import us.talabrek.ultimateskyblock.handler.WorldGuardHandler;
 import us.talabrek.ultimateskyblock.island.IslandInfo;
 import us.talabrek.ultimateskyblock.player.PlayerInfo;
 import us.talabrek.ultimateskyblock.uSkyBlock;
-import static us.talabrek.ultimateskyblock.util.util.FormatUtil.wordWrap;
 import us.talabrek.ultimateskyblock.util.ItemStackUtil;
 import us.talabrek.ultimateskyblock.util.LocationUtil;
 import us.talabrek.ultimateskyblock.util.file.FileUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.wordWrap;
 import us.talabrek.ultimateskyblock.util.yml.YmlConfiguration;
 
 /**

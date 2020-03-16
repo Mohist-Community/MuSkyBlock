@@ -2,9 +2,6 @@ package us.talabrek.ultimateskyblock.command;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
-import us.talabrek.ultimateskyblock.util.animation.AnimationHandler;
-import us.talabrek.ultimateskyblock.util.command.BaseCommandExecutor;
-import us.talabrek.ultimateskyblock.util.command.DocumentCommand;
 import us.talabrek.ultimateskyblock.command.admin.AbstractPlayerInfoCommand;
 import us.talabrek.ultimateskyblock.command.admin.AdminChallengeCommand;
 import us.talabrek.ultimateskyblock.command.admin.AdminIslandCommand;
@@ -36,6 +33,9 @@ import us.talabrek.ultimateskyblock.command.completion.RankTabCompleter;
 import us.talabrek.ultimateskyblock.handler.ConfirmHandler;
 import us.talabrek.ultimateskyblock.player.PlayerInfo;
 import us.talabrek.ultimateskyblock.uSkyBlock;
+import us.talabrek.ultimateskyblock.util.animation.AnimationHandler;
+import us.talabrek.ultimateskyblock.util.command.BaseCommandExecutor;
+import us.talabrek.ultimateskyblock.util.command.DocumentCommand;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 
 /**

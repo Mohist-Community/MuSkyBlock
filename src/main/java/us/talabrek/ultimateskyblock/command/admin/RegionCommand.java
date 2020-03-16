@@ -16,13 +16,13 @@ import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import us.talabrek.ultimateskyblock.handler.WorldEditHandler;
+import us.talabrek.ultimateskyblock.handler.WorldGuardHandler;
+import us.talabrek.ultimateskyblock.uSkyBlock;
 import us.talabrek.ultimateskyblock.util.animation.AnimationHandler;
 import us.talabrek.ultimateskyblock.util.animation.BlockAnimation;
 import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
 import us.talabrek.ultimateskyblock.util.command.CompositeCommand;
-import us.talabrek.ultimateskyblock.handler.WorldEditHandler;
-import us.talabrek.ultimateskyblock.handler.WorldGuardHandler;
-import us.talabrek.ultimateskyblock.uSkyBlock;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 

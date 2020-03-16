@@ -15,9 +15,9 @@ import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import us.talabrek.ultimateskyblock.util.nbt.NBTUtil;
+import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 import us.talabrek.ultimateskyblock.util.reflection.ReflectionUtil;
 import us.talabrek.ultimateskyblock.util.util.FormatUtil;
-import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 
 /**
  * Conversion to ItemStack from strings.

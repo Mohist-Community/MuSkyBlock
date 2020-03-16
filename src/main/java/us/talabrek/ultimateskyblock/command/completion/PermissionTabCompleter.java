@@ -3,9 +3,9 @@ package us.talabrek.ultimateskyblock.command.completion;
 import java.util.ArrayList;
 import java.util.List;
 import org.bukkit.command.CommandSender;
-import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 import us.talabrek.ultimateskyblock.menu.PartyPermissionMenuItem;
 import us.talabrek.ultimateskyblock.uSkyBlock;
+import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 
 public class PermissionTabCompleter extends AbstractTabCompleter {
     private uSkyBlock plugin;

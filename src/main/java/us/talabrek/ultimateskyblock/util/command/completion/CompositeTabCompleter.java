@@ -1,10 +1,9 @@
 package us.talabrek.ultimateskyblock.util.command.completion;
 
+import java.util.List;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
-
-import java.util.List;
 
 /**
  * TabCompleter that supports multiple tab-completers for different arguments.

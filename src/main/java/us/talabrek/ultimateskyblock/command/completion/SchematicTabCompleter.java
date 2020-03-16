@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 import us.talabrek.ultimateskyblock.uSkyBlock;
+import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 
 /**
  */

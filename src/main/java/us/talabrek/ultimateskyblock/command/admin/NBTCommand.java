@@ -4,11 +4,11 @@ import java.util.Map;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import us.talabrek.ultimateskyblock.handler.VaultHandler;
+import us.talabrek.ultimateskyblock.util.ItemStackUtil;
 import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
 import us.talabrek.ultimateskyblock.util.command.CompositeCommand;
-import us.talabrek.ultimateskyblock.handler.VaultHandler;
 import us.talabrek.ultimateskyblock.util.nbt.NBTUtil;
-import us.talabrek.ultimateskyblock.util.ItemStackUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 

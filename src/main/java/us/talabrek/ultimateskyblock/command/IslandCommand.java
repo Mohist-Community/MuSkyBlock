@@ -4,7 +4,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import us.talabrek.ultimateskyblock.Settings;
-import us.talabrek.ultimateskyblock.util.command.BaseCommandExecutor;
 import us.talabrek.ultimateskyblock.command.completion.AllPlayerTabCompleter;
 import us.talabrek.ultimateskyblock.command.completion.BiomeTabCompleter;
 import us.talabrek.ultimateskyblock.command.completion.MemberTabCompleter;
@@ -38,6 +37,7 @@ import us.talabrek.ultimateskyblock.command.island.TrustCommand;
 import us.talabrek.ultimateskyblock.command.island.WarpCommand;
 import us.talabrek.ultimateskyblock.menu.SkyBlockMenu;
 import us.talabrek.ultimateskyblock.uSkyBlock;
+import us.talabrek.ultimateskyblock.util.command.BaseCommandExecutor;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 

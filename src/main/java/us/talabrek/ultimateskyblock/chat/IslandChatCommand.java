@@ -5,9 +5,9 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import us.talabrek.ultimateskyblock.api.event.IslandChatEvent;
+import us.talabrek.ultimateskyblock.uSkyBlock;
 import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
 import us.talabrek.ultimateskyblock.util.command.BaseCommandExecutor;
-import us.talabrek.ultimateskyblock.uSkyBlock;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 
 /**

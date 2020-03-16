@@ -17,12 +17,12 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import static us.talabrek.ultimateskyblock.menu.MenuItemFactory.READONLY;
 import us.talabrek.ultimateskyblock.uSkyBlock;
-import static us.talabrek.ultimateskyblock.util.util.FormatUtil.stripFormatting;
-import static us.talabrek.ultimateskyblock.util.util.FormatUtil.wordWrap;
 import static us.talabrek.ultimateskyblock.util.ItemStackUtil.builder;
 import us.talabrek.ultimateskyblock.util.file.FileUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.pre;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.stripFormatting;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.wordWrap;
 import us.talabrek.ultimateskyblock.util.yml.YmlConfiguration;
 
 /**

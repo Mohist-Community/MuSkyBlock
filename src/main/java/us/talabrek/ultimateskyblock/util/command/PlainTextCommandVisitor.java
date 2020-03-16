@@ -1,11 +1,9 @@
 package us.talabrek.ultimateskyblock.util.command;
 
-import us.talabrek.ultimateskyblock.util.util.FormatUtil;
-
 import java.io.PrintStream;
 import java.util.List;
-
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import us.talabrek.ultimateskyblock.util.util.FormatUtil;
 
 /**
  * Simple visitor for generating plain-text documentation of an Command-hierarchy.

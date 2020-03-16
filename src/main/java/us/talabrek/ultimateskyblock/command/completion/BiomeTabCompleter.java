@@ -3,8 +3,8 @@ package us.talabrek.ultimateskyblock.command.completion;
 import java.util.ArrayList;
 import java.util.List;
 import org.bukkit.command.CommandSender;
-import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 import us.talabrek.ultimateskyblock.command.island.BiomeCommand;
+import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 
 /**
  * TabCompleter for Biomes.

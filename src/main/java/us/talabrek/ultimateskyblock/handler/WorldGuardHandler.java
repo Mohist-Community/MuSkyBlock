@@ -32,9 +32,9 @@ import us.talabrek.ultimateskyblock.island.IslandInfo;
 import us.talabrek.ultimateskyblock.player.PlayerInfo;
 import us.talabrek.ultimateskyblock.uSkyBlock;
 import us.talabrek.ultimateskyblock.util.LogUtil;
-import us.talabrek.ultimateskyblock.util.util.VersionUtil;
 import us.talabrek.ultimateskyblock.util.po.I18nUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import us.talabrek.ultimateskyblock.util.util.VersionUtil;
 
 public class WorldGuardHandler {
     private static final String CN = WorldGuardHandler.class.getName();

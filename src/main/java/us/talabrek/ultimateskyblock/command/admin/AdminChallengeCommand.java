@@ -6,13 +6,13 @@ import java.util.Map;
 import org.bukkit.command.CommandSender;
 import us.talabrek.ultimateskyblock.challenge.Challenge;
 import us.talabrek.ultimateskyblock.challenge.ChallengeCompletion;
-import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
-import us.talabrek.ultimateskyblock.util.command.CompositeCommand;
 import us.talabrek.ultimateskyblock.player.PlayerInfo;
 import us.talabrek.ultimateskyblock.uSkyBlock;
-import us.talabrek.ultimateskyblock.util.util.FormatUtil;
+import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
+import us.talabrek.ultimateskyblock.util.command.CompositeCommand;
 import us.talabrek.ultimateskyblock.util.po.I18nUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
+import us.talabrek.ultimateskyblock.util.util.FormatUtil;
 
 /**
  * The challenge admin command.

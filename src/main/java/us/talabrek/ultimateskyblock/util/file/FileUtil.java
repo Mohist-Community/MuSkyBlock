@@ -1,10 +1,5 @@
 package us.talabrek.ultimateskyblock.util.file;
 
-import us.talabrek.ultimateskyblock.util.yml.YmlConfiguration;
-import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.configuration.InvalidConfigurationException;
-import org.bukkit.configuration.file.FileConfiguration;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FilenameFilter;
@@ -26,6 +21,10 @@ import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.bukkit.configuration.ConfigurationSection;
+import org.bukkit.configuration.InvalidConfigurationException;
+import org.bukkit.configuration.file.FileConfiguration;
+import us.talabrek.ultimateskyblock.util.yml.YmlConfiguration;
 
 /**
  * Common file-utilities.

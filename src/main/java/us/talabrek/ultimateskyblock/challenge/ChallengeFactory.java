@@ -12,10 +12,10 @@ import java.util.regex.Pattern;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.EntityType;
 import org.bukkit.inventory.ItemStack;
-import static us.talabrek.ultimateskyblock.util.util.FormatUtil.normalize;
 import us.talabrek.ultimateskyblock.util.ItemStackUtil;
 import static us.talabrek.ultimateskyblock.util.ItemStackUtil.createItemStack;
 import us.talabrek.ultimateskyblock.util.MetaUtil;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.normalize;
 
 /**
  * Builder for Challenges (Note:

@@ -3,8 +3,8 @@ package us.talabrek.ultimateskyblock.command.admin;
 import java.util.Map;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
-import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
 import us.talabrek.ultimateskyblock.uSkyBlock;
+import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 

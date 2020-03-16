@@ -1,13 +1,9 @@
 package us.talabrek.ultimateskyblock.util.command;
 
-import org.bukkit.command.CommandExecutor;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
-
-import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import org.bukkit.command.CommandExecutor;
 
 /**
  * A visitor that simply gathers the complete command-hierarchy into a list of rows.

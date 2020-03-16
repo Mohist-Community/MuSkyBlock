@@ -1,10 +1,9 @@
 package us.talabrek.ultimateskyblock.util.animation;
 
+import java.util.List;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
-
-import java.util.List;
 
 /**
  * Sends (bogus) block-info to the player

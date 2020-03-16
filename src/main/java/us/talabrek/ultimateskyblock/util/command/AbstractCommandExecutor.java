@@ -1,10 +1,10 @@
 package us.talabrek.ultimateskyblock.util.command;
 
-import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 import java.util.HashMap;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 
 /**
  * Command delegator.

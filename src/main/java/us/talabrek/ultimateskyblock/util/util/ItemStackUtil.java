@@ -1,15 +1,5 @@
 package us.talabrek.ultimateskyblock.util.util;
 
-import us.talabrek.ultimateskyblock.util.nbt.NBTUtil;
-import us.talabrek.ultimateskyblock.util.reflection.ReflectionUtil;
-import org.bukkit.Bukkit;
-import org.bukkit.Material;
-import org.bukkit.enchantments.Enchantment;
-import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.ItemFlag;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -17,8 +7,16 @@ import java.util.List;
 import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+import org.bukkit.Bukkit;
+import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemFlag;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+import us.talabrek.ultimateskyblock.util.nbt.NBTUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import us.talabrek.ultimateskyblock.util.reflection.ReflectionUtil;
 
 /**
  * Conversion to ItemStack from strings.

@@ -9,13 +9,15 @@ import java.util.regex.Pattern;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import us.talabrek.ultimateskyblock.handler.VaultHandler;
-import us.talabrek.ultimateskyblock.util.nbt.NBTUtil;
 import us.talabrek.ultimateskyblock.player.PlayerInfo;
 import us.talabrek.ultimateskyblock.uSkyBlock;
-import us.talabrek.ultimateskyblock.util.util.FormatUtil;
-import static us.talabrek.ultimateskyblock.util.util.FormatUtil.*;
 import us.talabrek.ultimateskyblock.util.ItemStackUtil;
+import us.talabrek.ultimateskyblock.util.nbt.NBTUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import us.talabrek.ultimateskyblock.util.util.FormatUtil;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.join;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.prefix;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.wordWrap;
 
 /**
  * The data-object for a challenge

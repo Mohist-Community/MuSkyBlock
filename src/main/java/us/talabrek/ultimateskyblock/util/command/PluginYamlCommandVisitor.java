@@ -1,13 +1,12 @@
 package us.talabrek.ultimateskyblock.util.command;
 
-import org.bukkit.command.CommandExecutor;
-
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import org.bukkit.command.CommandExecutor;
 
 /**
  * Generates a yml-file following the syntax define in http://wiki.bukkit.org/Plugin_YAML

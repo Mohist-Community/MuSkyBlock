@@ -26,8 +26,8 @@ import us.talabrek.ultimateskyblock.util.LogUtil;
 import us.talabrek.ultimateskyblock.util.UUIDUtil;
 import us.talabrek.ultimateskyblock.util.file.FileUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
-import us.talabrek.ultimateskyblock.uuid.PlayerDB;
 import us.talabrek.ultimateskyblock.util.yml.YmlConfiguration;
+import us.talabrek.ultimateskyblock.uuid.PlayerDB;
 
 public class PlayerInfo implements Serializable, us.talabrek.ultimateskyblock.api.PlayerInfo {
     private static final String CN = PlayerInfo.class.getName();

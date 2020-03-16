@@ -3,13 +3,13 @@ package us.talabrek.ultimateskyblock.command.admin;
 import java.util.Map;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
-import us.talabrek.ultimateskyblock.util.command.CompositeCommand;
 import us.talabrek.ultimateskyblock.player.Perk;
 import us.talabrek.ultimateskyblock.uSkyBlock;
-import static us.talabrek.ultimateskyblock.util.util.FormatUtil.stripFormatting;
+import us.talabrek.ultimateskyblock.util.command.AbstractCommand;
+import us.talabrek.ultimateskyblock.util.command.CompositeCommand;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.stripFormatting;
 
 public class PerkCommand extends CompositeCommand {
     public PerkCommand(final uSkyBlock plugin) {

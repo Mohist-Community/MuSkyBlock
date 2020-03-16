@@ -1,13 +1,11 @@
 package us.talabrek.ultimateskyblock.util.nbt;
 
-import org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack;
-import org.bukkit.inventory.ItemStack;
-
 import java.lang.reflect.Field;
 import java.util.Map;
 import java.util.logging.Logger;
-
-import static us.talabrek.ultimateskyblock.util.reflection.ReflectionUtil.*;
+import org.bukkit.inventory.ItemStack;
+import static us.talabrek.ultimateskyblock.util.reflection.ReflectionUtil.exec;
+import static us.talabrek.ultimateskyblock.util.reflection.ReflectionUtil.execStatic;
 
 /**
  * An NBTItemStackTagger using reflection for CraftBukkit based servers.

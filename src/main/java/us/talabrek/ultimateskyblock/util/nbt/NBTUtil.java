@@ -1,8 +1,7 @@
 package us.talabrek.ultimateskyblock.util.nbt;
 
-import org.bukkit.inventory.ItemStack;
-
 import java.util.logging.Logger;
+import org.bukkit.inventory.ItemStack;
 
 /**
  * Utility for setting NBTTag data on Bukkit items without NMS (using reflection).

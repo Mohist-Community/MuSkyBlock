@@ -3,12 +3,12 @@ package us.talabrek.ultimateskyblock.command;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import us.talabrek.ultimateskyblock.util.command.BaseCommandExecutor;
 import us.talabrek.ultimateskyblock.command.challenge.ChallengeCompleteCommand;
 import us.talabrek.ultimateskyblock.command.challenge.ChallengeInfoCommand;
 import us.talabrek.ultimateskyblock.command.completion.AvailableChallengeTabCompleter;
 import us.talabrek.ultimateskyblock.player.PlayerInfo;
 import us.talabrek.ultimateskyblock.uSkyBlock;
+import us.talabrek.ultimateskyblock.util.command.BaseCommandExecutor;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 

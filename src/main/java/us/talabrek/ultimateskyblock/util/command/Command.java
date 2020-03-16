@@ -1,9 +1,8 @@
 package us.talabrek.ultimateskyblock.util.command;
 
+import java.util.Map;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
-
-import java.util.Map;
 
 /**
  * An abstraction for supporting nesting of commands.

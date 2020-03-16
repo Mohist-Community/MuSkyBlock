@@ -9,12 +9,12 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import us.talabrek.ultimateskyblock.handler.VaultHandler;
-import static us.talabrek.ultimateskyblock.util.util.FormatUtil.stripFormatting;
 import us.talabrek.ultimateskyblock.util.ItemStackUtil;
 import static us.talabrek.ultimateskyblock.util.ItemStackUtil.builder;
 import static us.talabrek.ultimateskyblock.util.ItemStackUtil.isValidInventoryItem;
 import us.talabrek.ultimateskyblock.util.file.FileUtil;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
+import static us.talabrek.ultimateskyblock.util.util.FormatUtil.stripFormatting;
 import us.talabrek.ultimateskyblock.util.yml.YmlConfiguration;
 
 /**

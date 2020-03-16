@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
-import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 import us.talabrek.ultimateskyblock.island.IslandInfo;
 import us.talabrek.ultimateskyblock.player.PlayerInfo;
+import us.talabrek.ultimateskyblock.util.command.completion.AbstractTabCompleter;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.marktr;
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 

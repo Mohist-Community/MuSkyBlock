@@ -28,9 +28,9 @@ import us.talabrek.ultimateskyblock.handler.task.WorldEditClear;
 import us.talabrek.ultimateskyblock.handler.task.WorldEditRegen;
 import us.talabrek.ultimateskyblock.handler.task.WorldRegen;
 import us.talabrek.ultimateskyblock.player.PlayerPerk;
-import us.talabrek.ultimateskyblock.util.reflection.ReflectionUtil;
 import us.talabrek.ultimateskyblock.uSkyBlock;
 import us.talabrek.ultimateskyblock.util.LogUtil;
+import us.talabrek.ultimateskyblock.util.reflection.ReflectionUtil;
 import us.talabrek.ultimateskyblock.util.util.VersionUtil;
 
 public class WorldEditHandler {
@@ -315,21 +315,9 @@ public class WorldEditHandler {
     }
 
     public static void clearEntities(World world, Location center) {
-        Collection<Entity> entities;
-        if (VersionUtil.getVersion(us.talabrek.ultimateskyblock.util.reflection.ReflectionUtil.getCraftBukkitVersion()).isGTE("1.10")) {
-            entities = ReflectionUtil.exec(world, "getNearbyEntities",
-                    new Class[]{Location.class, Double.TYPE, Double.TYPE, Double.TYPE}, center, Settings.island_radius, 255, Settings.island_radius);
-            for (Entity entity : entities) {
-                entity.remove();
-            }
-        } else {
-            entities = world.getEntities();
-            ProtectedRegion islandRegion = WorldGuardHandler.getIslandRegionAt(center);
-            for (Entity entity : entities) {
-                if (entity != null && entity.getLocation() != null && islandRegion.contains(entity.getLocation().getBlockX(), entity.getLocation().getBlockY(), entity.getLocation().getBlockZ())) {
-                    entity.remove();
-                }
-            }
+        Collection<Entity> entities = world.getNearbyEntities(center, Settings.island_radius, 255, Settings.island_radius);
+        for (Entity entity : entities) {
+            entity.remove();
         }
     }
 }

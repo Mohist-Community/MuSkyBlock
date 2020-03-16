@@ -2,7 +2,6 @@ package us.talabrek.ultimateskyblock.util.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import static us.talabrek.ultimateskyblock.util.po.I18nUtil.tr;
 
 public enum TimeUtil {
