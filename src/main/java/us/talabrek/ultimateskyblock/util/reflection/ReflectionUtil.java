@@ -72,17 +72,6 @@ public class ReflectionUtil {
     }
 
     /**
-     * Returns the packagename of the given object.
-     *
-     * @param nmsObject An object
-     * @return the packagename of the given object.
-     * @since 1.8
-     */
-    public static String getPackageName(Object nmsObject) {
-        return nmsObject != null ? nmsObject.getClass().getPackage().getName() : "";
-    }
-
-    /**
      * Returns the corresponding Bukkit class, given a CraftBukkit implementation object.
      *
      * @param craftObject A CraftBukkit implementation of a Bukkit class.

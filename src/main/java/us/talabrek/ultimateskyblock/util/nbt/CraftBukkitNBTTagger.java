@@ -1,5 +1,6 @@
 package us.talabrek.ultimateskyblock.util.nbt;
 
+import org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack;
 import org.bukkit.inventory.ItemStack;
 
 import java.lang.reflect.Field;
@@ -69,7 +70,7 @@ public class CraftBukkitNBTTagger implements NBTItemStackTagger {
             mapField.setAccessible(true);
             Map<String, Object> map = (Map<String, Object>) mapField.get(src);
             mapField.setAccessible(wasAccessible);
-            Class<?> NBTBase = Class.forName(getPackageName(tgt) + ".NBTBase");
+            Class<?> NBTBase = Class.forName("net.minecraft.server.v1_12_R1.NBTBase");
             for (String key : map.keySet()) {
                 Object val = exec(src, "get", new Class[]{String.class}, key);
                 exec(tgt, "set", new Class[]{String.class, NBTBase}, key, val);
@@ -83,7 +84,7 @@ public class CraftBukkitNBTTagger implements NBTItemStackTagger {
 
     private static Class<?> getNBTTagParser(Object nmsItem) {
         try {
-            return Class.forName(getPackageName(nmsItem) + ".MojangsonParser");
+            return Class.forName("net.minecraft.server.v1_12_R1.MojangsonParser");
         } catch (ClassNotFoundException e) {
             log.info("Unable to instantiate MojangsonParser: " + e);
         }
@@ -91,9 +92,8 @@ public class CraftBukkitNBTTagger implements NBTItemStackTagger {
     }
 
     private static Class<?> getCraftItemStackClass() {
-        String version = getCraftBukkitVersion();
         try {
-            return Class.forName("org.bukkit.craftbukkit." + version + ".inventory.CraftItemStack");
+            return Class.forName("org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack");
         } catch (Exception e) {
             log.info("Unable to find CraftItemStack: " + e);
         }
